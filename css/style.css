@@ -349,6 +349,50 @@ li {
 
 
 
+/* PARTNER */
+
+.partner {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.partner-left {
+    width: 60%;
+}
+
+.partner-left img {
+    width: 100%;
+    display: block;
+}
+
+.partner-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    padding: 40px;
+  }
+
+  .partner-right h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .partner-right p {
+    margin-bottom: 35px;
+
+  }
+
+  .partner-right .button-find {
+    border: 1.5px solid black;
+    padding: 15px 20px;
+    width: fit-content;
+  }
+
+
+
+
 
 
 
