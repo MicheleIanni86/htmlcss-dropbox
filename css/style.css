@@ -165,19 +165,115 @@
 
 /* PLAN CARD */
 .plan-card {
-
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 35px;
+    gap: 50px;
 }
 
-.plan-card {
-
+li {
+    list-style: url("../img/check-solid\(1\).svg");
+    margin-top: 17px;
 }
 
-.plan-card {
-
+.professional-card {
+    width: calc(100%/3);
+    padding: 10px 37px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    border: 1px solid lightgray;
 }
 
-.Enterprise-card {
+.head {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+}
 
+.head span {
+    padding-left: 5px;
+}
+
+
+.class {
+    margin-top: 20px;
+}
+
+.class :nth-child(1) {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.class :nth-child(2) {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.class :nth-child(3) {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.class-descriptions {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.user {
+    display: flex;
+}
+
+.space {
+    display: flex;
+}
+
+.share {
+    display: flex;
+}
+
+.gap-description {
+    padding-left: 10px;
+}
+
+
+.advanced-card {
+    width: calc(100%/3);
+}
+
+.enterprise-card {
+    width: calc(100%/3);
+}
+
+.button-try a {
+    width: 100%;
+    background-color: #0061ff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.or-buy {
+    margin: 25px 0px;
+    margin-bottom: 40px;
+}
+
+.break-line {
+    border-bottom: 1px solid lightgray;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.point-list span {
+    font-weight: bold;
 }
 
 
