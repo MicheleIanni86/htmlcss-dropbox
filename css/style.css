@@ -131,7 +131,7 @@
     width: 55%;
     height: 3000px;
     margin: 0 auto;
-  }
+}
 
 
 /* PLAN */
@@ -277,10 +277,6 @@ li {
 
 
 
-
-
-
-
 /* CONTACT */
 .contact {
     display: flex;
@@ -346,9 +342,6 @@ li {
 
 
 
-
-
-
 /* PARTNER */
 
 .partner {
@@ -372,62 +365,58 @@ li {
     flex-direction: column;
     margin-top: 65px;
     padding: 40px;
-  }
+}
 
   .partner-right h3 {
     font-size: 25px;
     margin-bottom: 20px;
-  }
+}
 
   .partner-right p {
     margin-bottom: 35px;
-
-  }
+}
 
   .partner-right .button-find {
     border: 1.5px solid black;
     padding: 15px 20px;
     width: fit-content;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.partner {
-
 }
 
-.operations {
 
+
+
+
+/* OPERATIONS */
+
+.operations h2 {
+    font-size: 45px;
+    margin-top: 145px;
+    margin-bottom: 50px;
+}
+
+.business-feature {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.business-card {
+    width: 33%;
+    padding: 25px 20px;
+  }
+
+.business-card img {
+    max-width: 100%;
+}
+
+.business-card h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  
+.business-card p {
+    font-size: 17px;
 }
 
 .business {
