@@ -166,7 +166,7 @@
     gap: 50px;
 }
 
-li {
+.point-list li {
     list-style: url("../img/check-solid\(1\).svg");
     margin-top: 17px;
 }
@@ -589,17 +589,38 @@ li {
 /* FOOTER */
 
 .footer {
+    width: 100%;
+    background-color: black ;
 
 }
 
 .container-footer {
-
+    width: 63%;
+    margin: 0 auto;
 }
 
 .up-footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
 
+.up-footer span {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.up-footer li {
+    list-style: none;
+    margin: 15px 0;
 }
 
 .down-footer {
-
-}
+    width: 125px;
+    height: 50px;
+    border-top: 1px solid lightgray;
+    color: white;
+    padding-top: 35px;
+    margin-bottom: 50px;
+  }
