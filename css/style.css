@@ -472,6 +472,23 @@ li {
     filter: invert(1);
 }
 
+.members-center-logo {
+    padding: 43px;
+}
+
+.members-center-logo > .line-br {
+    border-bottom: 1px solid lightgray;
+    width: 100px;
+    margin: 40px 0;
+}
+
+.members-center-logo > img {
+    width: 250px;
+}
+
+.members-center-logo :last-child {
+    margin-top: 55px;
+}
 
 /* LEFT COLOR BLOCK */
 .designit {
