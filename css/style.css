@@ -8,7 +8,6 @@
 
 
 /* HEADER */
-
 .header {    
     width: 100%;
     height: 80px;
@@ -60,7 +59,6 @@
 
 
 /* JUMBO */
-
 .jumbo {
     display: flex;
     justify-content: center;
@@ -126,7 +124,6 @@
 
 
 /* MAIN */
-
 .main {
     width: 55%;
     margin: 0 auto;
@@ -134,7 +131,6 @@
 
 
 /* PLAN */
-
 .plan {
     width: 100%;
     padding-top: 140px;
@@ -158,7 +154,6 @@
 .radio-button :last-child{
     margin-left: 60px;
 }
-
 
 
 
@@ -275,7 +270,6 @@ li {
 }
 
 
-
 /* CONTACT */
 .contact {
     display: flex;
@@ -340,9 +334,7 @@ li {
 }
 
 
-
 /* PARTNER */
-
 .partner {
     display: flex;
     width: 100%;
@@ -382,11 +374,7 @@ li {
 }
 
 
-
-
-
 /* OPERATIONS */
-
 .operations h2 {
     font-size: 45px;
     margin-top: 145px;
@@ -421,7 +409,6 @@ li {
 
 
 /* BUSINESS TITLE */
-
 .business-title {
     margin-top: 170px;
     width: 60%;
@@ -433,10 +420,6 @@ li {
     font-size: 18px;
     margin-bottom: 115px;
 }
-
-
-
-
 
 
 /* MEMBERS */
@@ -474,6 +457,7 @@ li {
 
 .members-center-logo {
     padding: 43px;
+    padding-top: 90px;
 }
 
 .members-center-logo > .line-br {
@@ -531,6 +515,42 @@ li {
 }
 
 
+
+
+/* FOOT-MEMBERS */
+.foot-members {
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.foot-members-container {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+.foot-members-left {
+    width: 60%;
+}
+
+.foot-members-left > h2 {
+    color: #61082B;
+    font-size: 46px;
+    font-weight: bold;
+  } 
+
+.foot-members-right {
+    width: 40%;
+}
+
+.foot-members-right > button {
+    border: none;
+    background-color: #FFF;
+    padding: 13px 56px;
+    font-size: 17px;
+    margin-top: 15px;
+  }
 
 
 
