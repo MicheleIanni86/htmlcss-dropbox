@@ -440,46 +440,77 @@ li {
 
 
 /* MEMBERS */
-
-.members {
-    /* width: 100%;
-    height: calc (100vh/3);
-    background-color: brown; */
-
-}
-
-
 .container-members {
     display: flex;
-    /* debug */
-    border: 1px dashed red;
+    background-color: #F5F5F5;
 }
 
 .members-left, 
 .members-right {
     display: flex;
     flex-wrap: wrap;
-    border: 1px dashed black;
     width: calc(100%/3);
     height: calc(100vw/3);
 }
 
 .members-center {
-    border: 1px dashed black;
-
     width: calc(100%/3);
     height: 100%;
 }
 
 
 .members-card {
-    border: 1px dashed yellowgreen;
+    display: flex;
     height: calc(100%/2);
     width: calc(100%/2);
+    justify-content: center;
+    align-items: center;
 }
 
 .members-card > img {
-    max-width: 100%;
+    max-width: 50%;
+    filter: invert(1);
+}
+
+
+/* LEFT COLOR BLOCK */
+.designit {
+    background-color: #A2D39B;
+    border: 13px solid #D1E9CD;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+#uf {
+    height: 50px;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+
+/* RIGHT COLOR BLOCK */
+.world-bicycle{
+    background-color: #D5001F;
+}
+
+.hearts {
+    background-color: #B4D0E7;
+}
+
+.lonely-planet {
+    background-color: #0D2481;
+}
+
+.clear-channel {
+    background-color: #FFD830;
 }
 
 
