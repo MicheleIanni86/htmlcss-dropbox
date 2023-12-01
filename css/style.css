@@ -129,7 +129,6 @@
 
 .main {
     width: 55%;
-    height: 3000px;
     margin: 0 auto;
 }
 
@@ -419,9 +418,74 @@ li {
     font-size: 17px;
 }
 
-.business {
+
+
+/* BUSINESS TITLE */
+
+.business-title {
+    margin-top: 170px;
+    width: 60%;
+    font-size: 29px;
+}
+
+.business-title div {
+    margin-top: 42px;
+    font-size: 18px;
+    margin-bottom: 115px;
+}
+
+
+
+
+
+
+/* MEMBERS */
+
+.members {
+    /* width: 100%;
+    height: calc (100vh/3);
+    background-color: brown; */
 
 }
+
+
+.container-members {
+    display: flex;
+    /* debug */
+    border: 1px dashed red;
+}
+
+.members-left, 
+.members-right {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px dashed black;
+    width: calc(100%/3);
+    height: calc(100vw/3);
+}
+
+.members-center {
+    border: 1px dashed black;
+
+    width: calc(100%/3);
+    height: 100%;
+}
+
+
+.members-card {
+    border: 1px dashed yellowgreen;
+    height: calc(100%/2);
+    width: calc(100%/2);
+}
+
+.members-card > img {
+    max-width: 100%;
+}
+
+
+
+
+
 
 .faq {
 
