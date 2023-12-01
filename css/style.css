@@ -554,9 +554,35 @@ li {
 
 
 
-
+/* FAQ */
 .faq {
+    margin: 100px 0;
+}
 
+.faq > h2 {
+    font-size: 43px;
+    margin-bottom: 55px;
+}
+
+.separating-line {
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+.questions-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    
+}
+
+.questions-line :nth-child(1) {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.questions-line :nth-child(2) {
+        margin-right: 30px;
 }
 
 
