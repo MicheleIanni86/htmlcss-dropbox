@@ -173,7 +173,6 @@
 
 .professional-card {
     width: calc(100%/3);
-    padding: 10px 37px;
     padding-top: 0;
     padding-bottom: 50px;
     border: 1px solid lightgray;
@@ -199,7 +198,8 @@
 
 
 .class {
-    margin-top: 20px;
+    padding: 0px 37px;
+    padding-top: 10px;
 }
 
 .class :nth-child(1) {
@@ -224,6 +224,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
+  padding: 0px 37px;
 }
 
 .user {
@@ -242,6 +243,10 @@
     padding-left: 10px;
 }
 
+.button-try {
+    padding: 10px 37px;
+}
+
 .button-try a {
     width: 100%;
     background-color: #0061ff;
@@ -257,12 +262,18 @@
 .or-buy {
     margin: 25px 0px;
     margin-bottom: 40px;
+    padding: 0px 37px;
 }
 
 .break-line {
     border-bottom: 1px solid lightgray;
     width: 50px;
     margin-bottom: 40px;
+    margin-left: 37px;
+}
+
+.point-list {
+    padding: 0px 37px;
 }
 
 .point-list span {
